@@ -3,6 +3,7 @@ import React from 'react';
 import'./global.css';
 import'./App.css';
 import'./Sidebar.css';
+import'./Main.css';
 
 function App() {
 	return (
@@ -38,7 +39,75 @@ function App() {
 			</aside>
 
 			<main>
-				
+				<ul>
+					<li className="dev-item">
+						<header>
+							<img src="https://avatars0.githubusercontent.com/u/30866274?s=460&v=4" alt="Igor Cazé Nunes" />
+
+							<div className="user-info">
+								<strong>Igor Cazé Nunes</strong>
+								<span>Spring, Spring.Boot, Angular</span>
+							</div>
+						</header>
+
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iure facilis magni repellendus inventore cum quo culpa dicta blanditiis nulla, sed earum nemo? Esse quae dolorem recusandae consequuntur sequi. Autem.
+						</p>
+
+						<a href="https://github.com/IgorCazeNunes">Acessar perfil no Github</a>
+					</li>
+					
+					<li className="dev-item">
+						<header>
+							<img src="https://avatars0.githubusercontent.com/u/30866274?s=460&v=4" alt="Igor Cazé Nunes" />
+
+							<div className="user-info">
+								<strong>Igor Cazé Nunes</strong>
+								<span>Spring, Spring.Boot, Angular</span>
+							</div>
+						</header>
+
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iure facilis magni repellendus inventore cum quo culpa dicta blanditiis nulla, sed earum nemo? Esse quae dolorem recusandae consequuntur sequi. Autem.
+						</p>
+
+						<a href="https://github.com/IgorCazeNunes">Acessar perfil no Github</a>
+					</li>
+					
+					<li className="dev-item">
+						<header>
+							<img src="https://avatars0.githubusercontent.com/u/30866274?s=460&v=4" alt="Igor Cazé Nunes" />
+
+							<div className="user-info">
+								<strong>Igor Cazé Nunes</strong>
+								<span>Spring, Spring.Boot, Angular</span>
+							</div>
+						</header>
+
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iure facilis magni repellendus inventore cum quo culpa dicta blanditiis nulla, sed earum nemo? Esse quae dolorem recusandae consequuntur sequi. Autem.
+						</p>
+
+						<a href="https://github.com/IgorCazeNunes">Acessar perfil no Github</a>
+					</li>
+					
+					<li className="dev-item">
+						<header>
+							<img src="https://avatars0.githubusercontent.com/u/30866274?s=460&v=4" alt="Igor Cazé Nunes" />
+
+							<div className="user-info">
+								<strong>Igor Cazé Nunes</strong>
+								<span>Spring, Spring.Boot, Angular</span>
+							</div>
+						</header>
+
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iure facilis magni repellendus inventore cum quo culpa dicta blanditiis nulla, sed earum nemo? Esse quae dolorem recusandae consequuntur sequi. Autem.
+						</p>
+
+						<a href="https://github.com/IgorCazeNunes">Acessar perfil no Github</a>
+					</li>
+				</ul>
 			</main>
 		</div>
 	);
